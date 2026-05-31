@@ -9,7 +9,7 @@ make start
 
 ## execute
 ```bash
-curl -X POST http://localhost:8001/sum \
+curl -X POST http://localhost:8000/sum \
   -H "Content-Type: application/json" \
   -H "Accept: application/json" \
   -d '{"numbers": [1, 2, 3, 4, 5, 6]}'
