@@ -1,0 +1,54 @@
+# phpstorm project files
+.idea
+
+# visual studio code project files
+.vscode
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+tests/_output/*
+tests/_support/_generated
+
+#vagrant folder
+/.vagrant
+
+# === Тимчасові папки Yii2 (Обов'язково для Docker) ===
+# Ігноруємо весь кеш, сесії та логи, які пише Yii2
+/runtime/*
+!/runtime/.gitignore
+
+# Ігноруємо публічні асети (скрипти і стилі), які Yii автоматично копіює в web
+/web/assets/*
+!/web/assets/.gitignore
+
+# === Налаштування Docker та оточення ===
+# Локальні змінні оточення (паролі до бази даних тощо)
+.env.local
+.env.local.php
+.env.*.local
+
+# Якщо Docker створює якісь локальні лог-файли в корені
+*.log
